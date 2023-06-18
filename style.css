@@ -13,6 +13,10 @@ body {
     font-family:'Poppins',sans-serif;
 }
 
+.container {
+    width: 1170px;
+    margin: 0 0 auto;
+}
 /*****************
 *   HOME - BANNER
 ***************/ 
@@ -54,7 +58,7 @@ justify-content: center;
 
 .home  .header .nav ul li a :hover{
     border-bottom: 1px solid var(--color-primary);
-    color:var(--color-primary;)
+    color:var(--color-primary);
 }
 
 .home .header .nav ul li .logo {
@@ -100,3 +104,28 @@ justify-content: center;
 .home .banner .slogan2 {
     margin-bottom: 15px;
 } 
+
+/*******************
+* ABOUT *
+********************/
+
+.about {
+    height: 100vh;
+    background-color: var(--color-primary);
+
+}
+
+.about .container {
+    display:flex;
+}
+.about. .timing {
+    width: 33%;
+    padding: 20px;
+    background-image: url(...images/brush-big.jpg);
+}
+
+.about .timing   .overlay {
+    background: rgba(0, 0, 0, 0.8;
+    text-align: center;
+    padding: 40px 20px;
+}
